@@ -12,15 +12,15 @@
 使用es5编写和H5的history
 
 ##怎么跑
-###添加 wa-router.js
+####添加 wa-router.js
 ```
 <script src="module/wa-router.js"></script>
 ```
-###添加 c.css
+####添加 c.css
 ```
 <link rel="stylesheet" href="c.css"/>
 ```
-###启动
+####启动
 ```
 router.setup({root:'/html/router'})
 ```
@@ -28,15 +28,15 @@ router.setup({root:'/html/router'})
 基本上现代浏览器都能跑, 不过需要部署在服务, 本地跑不了
 
 ##例子 (备忘
-###简单加载
+####简单加载
 ```
 router.setup({root:'/html/router'})
 ```
-###入口加载
+####入口加载
 ```
 router.setup({root:'/html/router', entrance:'/index' });
 ```
-###状态监听
+####状态监听
 ```
     router.setup({
         root:'/html/router',
