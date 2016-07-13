@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>简易路由模块</title>
+    <link rel="stylesheet" href="c.css"/>
+</head>
+<body>
+
+<!-- 内容区域部分 -->
+<div id="content">
+    <!--<page class="center currPage">  temp home   <a href="/next">next</a></page>-->
+</div>
+
+<script src="module/wa-router.js"></script>
+<script>
+    router.setup({root:'/html/router'});
+    router.startDirect({url: '/pages/right'});
+//    router.setup({root:'/html/router', entrance:'/pages/home' });
+
+</script>
+</body>
+</html>

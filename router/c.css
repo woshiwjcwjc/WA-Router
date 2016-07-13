@@ -1,0 +1,19 @@
+html{
+    font-size: 10px;
+}
+
+.center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 3rem;
+    display: none;
+}
+
+.currPage{
+    display: block !important;
+}
